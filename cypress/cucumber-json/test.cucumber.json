@@ -1,0 +1,57 @@
+[
+  {
+    "description": "    In order to verify the navigation to the web app",
+    "keyword": "Feature",
+    "name": "Navigate to Web application and verifiying title",
+    "line": 2,
+    "id": "navigate-to-web-application-and-verifiying-title",
+    "tags": [
+      {
+        "name": "@UI",
+        "line": 1
+      }
+    ],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "navigate-to-web-application-and-verifiying-title;perform-navigation",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Perform Navigation",
+        "tags": [
+          {
+            "name": "@UI",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open the web app url",
+            "result": {
+              "status": "passed",
+              "duration": 1696000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify title of web page as 'OrangeHRM'",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

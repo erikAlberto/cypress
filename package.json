@@ -1,0 +1,32 @@
+{
+  "name": "testing-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --headed --browser chrome",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "report": "node cucumber-html-report.js"
+  },
+  "author": "Alberto Vargas",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "cypress": "^7.6.0",
+    "cypress-cucumber-preprocessor": "^4.1.2",
+    "cypress-failed-log": "^2.9.1",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

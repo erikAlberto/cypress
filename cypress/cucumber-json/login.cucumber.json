@@ -1,0 +1,62 @@
+[
+  {
+    "description": "    In order to verify the login functionality",
+    "keyword": "Feature",
+    "name": "Login into application",
+    "line": 1,
+    "id": "login-into-application",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-into-application;verify-that-the-user-is-able-to-login-by-entering-valid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify that the user is able to login by entering valid credentials",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          },
+          {
+            "name": "@login",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the web app url",
+            "result": {
+              "status": "passed",
+              "duration": 1786000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I fill the required fields",
+            "result": {
+              "status": "passed",
+              "duration": 2301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify that user name is displayed in the page",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
