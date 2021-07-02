@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run --headed --browser chrome",
+    "test_tag": "cypress run --env TAGS='@login'",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "report": "node cucumber-html-report.js",

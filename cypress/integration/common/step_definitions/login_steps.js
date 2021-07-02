@@ -1,9 +1,4 @@
-before(() => {
-  cy.reload();
-});
-after(() => {   
-  cy.reload();
-});
+/* eslint-disable no-undef */
 When('I login into application as {string}', UserTypeValue => {
   cy.fixture('credentials').as('credentials');
   cy.log('Value passed in' + UserTypeValue);

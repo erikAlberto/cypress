@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 //glue code for steps
 Given('I open the web app url', () => {            
   cy.visit('https://opensource-demo.orangehrmlive.com/index.php/auth/login');
