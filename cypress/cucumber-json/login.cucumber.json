@@ -1,6 +1,6 @@
 [
   {
-    "description": "    In order to verify the login functionality",
+    "description": "    As a User, I want to log in to the application so that to use the system's functionalities.",
     "keyword": "Feature",
     "name": "Login into application",
     "line": 1,
@@ -32,17 +32,17 @@
             "name": "I open the web app url",
             "result": {
               "status": "passed",
-              "duration": 1786000000
+              "duration": 1629000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 8,
-            "name": "I fill the required fields",
+            "name": "I login into application as 'Admin'",
             "result": {
               "status": "passed",
-              "duration": 2301000000
+              "duration": 2221000000
             }
           },
           {

@@ -1,0 +1,338 @@
+[
+  {
+    "description": "    As a web user, I want search people according to criteria so that get basic information.",
+    "keyword": "Feature",
+    "name": "Personal directory",
+    "line": 1,
+    "id": "personal-directory",
+    "tags": [],
+    "uri": "directory.feature",
+    "elements": [
+      {
+        "id": "personal-directory;verify-that-the-search-functionality-is-working-according-the-parameters-set-in-the-available-filters",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify that the Search functionality is working according the parameters set in the available filters",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the web app url",
+            "result": {
+              "status": "passed",
+              "duration": 25678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I login into application as 'Admin'",
+            "result": {
+              "status": "passed",
+              "duration": 24593000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to \"directory\"",
+            "result": {
+              "status": "passed",
+              "duration": 3392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I search Charlie Carter with All in All",
+            "result": {
+              "status": "passed",
+              "duration": 1152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I verify that Charlie Carter is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "personal-directory;verify-that-the-search-functionality-is-working-according-the-parameters-set-in-the-available-filters",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Verify that the Search functionality is working according the parameters set in the available filters",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the web app url",
+            "result": {
+              "status": "passed",
+              "duration": 819000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I login into application as 'Admin'",
+            "result": {
+              "status": "passed",
+              "duration": 1832000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to \"directory\"",
+            "result": {
+              "status": "passed",
+              "duration": 14293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I search  with Database Administrator in All",
+            "result": {
+              "status": "passed",
+              "duration": 1217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I verify that Database Administrator is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "personal-directory;verify-that-the-search-functionality-is-working-according-the-parameters-set-in-the-available-filters",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify that the Search functionality is working according the parameters set in the available filters",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the web app url",
+            "result": {
+              "status": "passed",
+              "duration": 814000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I login into application as 'Admin'",
+            "result": {
+              "status": "passed",
+              "duration": 1675000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to \"directory\"",
+            "result": {
+              "status": "passed",
+              "duration": 3441000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I search  with All in HQ - CA, USA",
+            "result": {
+              "status": "passed",
+              "duration": 1322000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I verify that HQ - CA is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "personal-directory;verify-that-the-search-functionality-is-working-according-the-parameters-set-in-the-available-filters",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify that the Search functionality is working according the parameters set in the available filters",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the web app url",
+            "result": {
+              "status": "passed",
+              "duration": 747000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I login into application as 'Admin'",
+            "result": {
+              "status": "passed",
+              "duration": 1685000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to \"directory\"",
+            "result": {
+              "status": "passed",
+              "duration": 3579000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I search Cecil Bonaparte with Software Engineer in HQ - CA, USA",
+            "result": {
+              "status": "passed",
+              "duration": 1204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I verify that Cecil Bonaparte is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "personal-directory;verify-that-the-search-functionality-is-working-according-the-parameters-set-in-the-available-filters",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Verify that the Search functionality is working according the parameters set in the available filters",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the web app url",
+            "result": {
+              "status": "passed",
+              "duration": 827000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I login into application as 'Admin'",
+            "result": {
+              "status": "passed",
+              "duration": 1810000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I go to \"directory\"",
+            "result": {
+              "status": "passed",
+              "duration": 3484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I search  with Software Engineer in Canadian Regional HQ",
+            "result": {
+              "status": "passed",
+              "duration": 1150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I verify that Software Engineer is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

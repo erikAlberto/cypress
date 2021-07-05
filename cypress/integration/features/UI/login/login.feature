@@ -1,6 +1,6 @@
 Feature: Login into application
 
-    In order to verify the login functionality
+    As a User, I want to log in to the application so that to use the system's functionalities.
 
     @smoke @login
     Scenario: Verify that the user is able to login by entering valid credentials
